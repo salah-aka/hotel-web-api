@@ -22,6 +22,10 @@ import dev.hotel.entite.Client;
 import dev.hotel.exception.UuidIntrouvableException;
 import dev.hotel.metier.ClientService;
 
+/**
+ * @author Salaheddine El Majdoub
+ *
+ */
 @RestController
 @RequestMapping("clients")
 public class ClientsController {

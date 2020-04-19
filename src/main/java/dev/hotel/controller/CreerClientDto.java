@@ -3,6 +3,10 @@ package dev.hotel.controller;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
+/**
+ * @author Salaheddine El Majdoub
+ *
+ */
 public class CreerClientDto {
 	
 	@NotBlank

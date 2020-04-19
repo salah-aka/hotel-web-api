@@ -1,8 +1,14 @@
 package dev.hotel.entite;
 
+
+
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
 
+/**
+ * @author Salaheddine El Majdoub
+ *
+ */
 @Entity
 public class Chambre extends BaseEntite {
 
@@ -21,7 +27,7 @@ public class Chambre extends BaseEntite {
         this.surface = surface;
         this.hotel = hotel;
     }
-
+  
 
     public Hotel getHotel() {
         return hotel;
